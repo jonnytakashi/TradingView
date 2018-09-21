@@ -1,0 +1,11 @@
+//@version=3
+strategy("Strategy Tester", overlay=true)
+
+
+longCondition = LONG_SIGNAL_HERE)
+if (longCondition)
+    strategy.entry("Open Long", strategy.long)
+
+shortCondition = SHORT_SIGNAL_HERE)
+if (shortCondition)
+    strategy.entry("Open Short", strategy.short)
